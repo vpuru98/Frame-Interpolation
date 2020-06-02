@@ -1,9 +1,9 @@
 # Frame-Interpolation
-> Motion Compensated Frame Interpolation using Deep ConvoNets
+> Motion Compensated Frame Interpolation using Deep ConvNets
 
 ## About
 
-Frame Interpolation is the technique of generating intermediate frames between existing ones, by the method the interpotion, such the resulting frame sequence may be smoother and more continuous.
+Frame Interpolation is the technique of generating intermediate frames between existing ones, by the method of interpolation, such that the resulting frame sequence may be smoother and more continuous.
 Interpolation can be achieved by a number of methods, averaging being the simplest of the lot. This repository tries to illustrate the process of interpolation by making use of deep convolutional neural networks.
 
 
