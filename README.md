@@ -25,3 +25,32 @@ where *filepath* is the path to the clip you want to interpolate, and *interpola
 You can also downscale the frame rate of any of your clips by using the command
 
     python3 fps.py [filepath] -d [reduction factor]
+
+## Demo
+
+Instead of training the model on entire frames, useful windows across frame triplets have been captured and used for training. These windows are smaller than the actual frames, and are used for reducing training time, and reducing data redundancy. An example is provided below:
+
+
+![](Examples/first_frame.png)
+
+The first frame.
+
+
+![](Examples/second_frame.png)
+
+The second frame.
+
+
+![](Examples/predicted_middle_frame.png)
+
+The predicted middle frame.
+
+
+![](Examples/actual_middle_frame.png)
+
+The predicted middle frame.
+
+
+As you can probabably observe, the model learns to selectively spread out the legs of the player within the intermediate frame, such that the degree of the spread is an intermediate of that shown in the first and the second frame. 
+
+A fair criticism of the model would be that it loses the definition of edges in the frame it generates.
