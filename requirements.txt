@@ -2,7 +2,6 @@ numpy
 keras
 tensorflow
 opencv-python
-google.colab
 matplotlib
 sklearn
 joblib
