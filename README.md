@@ -28,29 +28,29 @@ You can also downscale the frame rate of any of your clips by using the command
 
 ## Demo
 
-Instead of training the model on entire frames, useful windows across frame triplets have been captured and used for training. These windows are smaller than the actual frames, and are used for reducing training time, and reducing data redundancy. An example is provided below:
+Instead of training the model on entire frames, useful windows across frame triplets have been captured and used for training. These windows are smaller than the actual frames, and are used for reducing training time as well as for reducing data redundancy. An example is provided below:
 
 
-![](Examples/first_frame.png)
+![](Examples/first_window.png)
 
-The first frame.
-
-
-![](Examples/second_frame.png)
-
-The second frame.
+The first window.
 
 
-![](Examples/predicted_middle_frame.png)
+![](Examples/second_window.png)
 
-The predicted middle frame.
-
-
-![](Examples/actual_middle_frame.png)
-
-The predicted middle frame.
+The second window.
 
 
-As you can probabably observe, the model learns to selectively spread out the legs of the player within the intermediate frame, such that the degree of the spread is an intermediate of that shown in the first and the second frame. 
+![](Examples/predicted_middle_window.png)
 
-A fair criticism of the model would be that it loses the definition of edges in the frame it generates.
+The predicted middle window.
+
+
+![](Examples/actual_middle_window.png)
+
+The predicted middle window.
+
+
+As you can probabably observe, the model learns to selectively spread out the legs of the player within the intermediate window, such that the degree of the spread is an intermediate of that shown in the first and the second window. 
+
+A fair criticism of the model would be that it loses the definition of edges to a certain degree in the window it generates.
