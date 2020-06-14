@@ -51,6 +51,6 @@ The predicted middle window.
 The predicted middle window.
 
 
-As you can probabably observe, the model learns to selectively spread out the legs of the player within the intermediate window, such that the degree of the spread is an intermediate of that shown in the first and the second window. 
+As you can probably observe, the model learns to selectively spread out the legs of the player within the intermediate window, such that the degree of the spread is an intermediate of that shown in the first and the second window. 
 
-A fair criticism of the model would be that it loses the definition of edges to a certain degree in the window it generates. This could be remedied by adding a post-processing step to the pipeline, which re-sharpens the edges of the frame.
+A fair criticism of the model would be that it loses the definition of edges to a certain degree in the window it generates. This could be remedied by adding a post-processing step to the pipeline, which re-sharpens the edges of the window.
