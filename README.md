@@ -48,7 +48,7 @@ The predicted middle window.
 
 ![](Examples/actual_middle_window.png)
 
-The predicted middle window.
+The actual middle window.
 
 
 As you can probably observe, the model learns to selectively spread out the legs of the player within the intermediate window, such that the degree of the spread is an intermediate of that shown in the first and the second window. 
